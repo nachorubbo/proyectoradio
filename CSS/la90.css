@@ -1,5 +1,5 @@
 html header {
-   background-image: url(../recursos/consola.jpg);
+   background-image: url(../recursos/HEADER.PNG);
    background-size:cover;
    height: 550px;      
    width: 2010px;
@@ -12,12 +12,13 @@ footer{
     margin: 60px  250px
 }
 
-header ol{
+header nav  {
     display: flex;
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(202, 117, 117);
     justify-content:space-evenly;
-    margin-left: 400px;    
+    margin-left: 400px; 
+    margin-top: -400px;   
 }
 
 .divCuadrado {
@@ -25,10 +26,11 @@ header ol{
     height: 450px;    
 }
 
-.divPosition{
+.divLogo {
     position: relative;
     top: 150px;
     left: 50px;
+    
 }
 
 .fondoRojo {
@@ -56,20 +58,17 @@ header ol{
 
 body {
     width: 1440px;
-    height: 2050px;
+    height: 2500px;
 }
 
 .divFondoNegro {
     background-color: black;
     width: 2010px;
-    height: 2300px;    
+    height: 2550px;    
 }
 
 header {
     width: 1840px;    
-}
-header div {
-    border-radius: 25px;
 }
 
 body i {
@@ -85,13 +84,16 @@ body i {
 .divDescarga {
    display: flex;
    justify-content:center;   
+   margin-top: 20px;
 }
 
 .divImage {
     display: flex;
     justify-content: end;
     margin-right: 210px;
-    border-radius: 50px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  
 }
 
 body section p {
@@ -105,6 +107,7 @@ body section p {
 
 footer p{
     justify-content: flex-start;
+    margin-bottom: 100px;
 }
 
 body section h2 {
@@ -113,12 +116,62 @@ body section h2 {
     color: white;
 }
 
-.imagenMaps{
-    justify-content: flex-start ;
+.imagenMaps {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+    
 }
 
 .iconoWapp {
     position:fixed;
     color: green;
     font-size: 60px;
+    margin-bottom: 90px;
+}
+.iconoUp {
+    position: fixed;
+    color:blueviolet
+    
+}
+.imagen1{     
+    margin-left: 210px;
+}
+.divAlto{
+    width: 1000px;
+}
+body section3 {
+    background-image: url(../recursos/maps.JPG);
+    background-size: 100vw 100vh;
+}
+form {
+    justify-content: end;
+    width: 750px;
+    margin: auto;
+    background: rgba(165, 28, 28, 0.4);
+    padding: 100px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-right: 200px;
+    border-radius: 20px;
+    
+    
+}
+body form h2{
+    color: white;
+    text-align:justify;
+    margin: 0px;
+    font-size: 40px;
+    font-family: monospace;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.container {
+    width: 2000px;
 }
